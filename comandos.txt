@@ -1,0 +1,31 @@
+=soma() - Soma de todas as celulas selecionadas da tabela
+=média() - Média de valores das celulas da tabela
+=máximo() - Valor máximo de celulas selecionadas da tabela
+=Mínimo() - Valor mínimo de celulas selecionadas da tabela
+=maior() - Maior valor das celulas selecionadas da tabela
+=menor() - Menor valor das celulas selecionadas da tabela
+=cont.valores() - Calcula o numero de celulas que possuir alguma caracteres
+=cont.núm() - Calcula o numero de celulas que possuir algum número
+=cont.vazio() - Calcula o numero de celulas que nao possuir caracteres
+
+=SOMA(XX:YY)		-> soma os números que estao entre as células selecionadas
+
+=MÉDIA(XX:YY)		-> faz a média aritimética entre as células selecionadas
+
+=MÁXIMO(XX:YY)		-> mostra o valor máximo entre as células selecionadas
+
+=MÍNIMO(XX:YY)		-> mostra o valor mínimo entre as células selecionadas
+
+=MAIOR(XX:YY;k)		-> seleciona o maior valor entre as células selecionadas, na posição k
+				EXEMPLO: DESCOBRIR O SEGUNDO MAIOR VALOR ENTRE A2 E F2
+					=MAIOR(A2:F2;2)
+
+=MENOR(XX:YY;k)		-> seleciona o menor valor entre as células selecionadas, na posição k
+				EXEMPLO: DESCOBRIR O SEGUNDO MAIOR VALOR ENTRE A2 E F2
+					=MAIOR(A2:F2;2)
+
+=CONT.VALORES(XX:YY)	-> conta quantas celulas estão preenchidas
+
+=CONT.NÚM(XX:YY)	-> conta quantas células estão preenchidas por números
+
+=CONTAR.VAZIO(XX:YY)	-> conta quantas células não estão preenchidas
